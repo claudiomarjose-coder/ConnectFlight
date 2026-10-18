@@ -1,0 +1,17 @@
+:root {
+  --cor-destaque: #c93de0;
+  --cor-escura: #3f3d56;
+  --cor-texto: #6b6b7b;
+  --cor-fundo: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Dosis", Arial, sans-serif;
+  color: var(--cor-texto);
+  background: var(--cor-fundo);
+}
+
+a { color: inherit; }

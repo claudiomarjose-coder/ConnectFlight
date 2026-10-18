@@ -1,0 +1,18 @@
+.pacote {
+  background: #fff;
+  border: 1px solid #ececf3;
+  border-radius: 14px;
+  padding: 1.25rem;
+  box-shadow: 0 4px 14px rgba(63, 61, 86, 0.07);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.pacote-icone { font-size: 2rem; }
+.pacote h3 { margin: 0; color: var(--cor-escura); font-size: 1.25rem; }
+.pacote-local { color: var(--cor-destaque); font-weight: 700; font-size: 0.85rem; }
+.pacote p { margin: 0.25rem 0 0.5rem; font-size: 0.9rem; flex: 1; }
+.pacote-preco { display: flex; align-items: baseline; gap: 0.5rem; }
+.pacote-preco s { color: #9a9aa8; font-size: 0.85rem; }
+.pacote-preco strong { color: var(--cor-escura); font-size: 1.2rem; }

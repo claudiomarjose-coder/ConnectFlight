@@ -1,0 +1,23 @@
+.footer-nav {
+  width: min(520px, 90%);
+  margin: 1.5rem auto 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #e6e6ee;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-link {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--cor-escura);
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+
+.footer-link:hover,
+.footer-link.ativo {
+  color: var(--cor-destaque);
+  border-bottom-color: var(--cor-destaque);
+}

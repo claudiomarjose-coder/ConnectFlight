@@ -1,0 +1,5 @@
+.wave {
+  display: block;
+  width: 100%;
+  height: clamp(60px, 10vw, 120px);
+}

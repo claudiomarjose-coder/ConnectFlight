@@ -1,0 +1,28 @@
+.hero {
+  max-width: 520px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-titulo {
+  margin: 1.5rem 0 1rem;
+  font-size: clamp(1.4rem, 4vw, 1.9rem);
+  font-weight: 500;
+  color: var(--cor-escura);
+}
+
+.hero-titulo strong {
+  color: var(--cor-destaque);
+  font-weight: 700;
+}
+
+.hero-texto {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.hero-texto b { color: var(--cor-escura); }
+.hero-texto-claro { font-size: 0.85rem; color: #9a9aa8; }
